@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .navLink {
-    @apply text-darkBlue font-bold hover:border-b-4 border-b-lightBlue pb-2;
+    @apply text-darkBlue font-bold border-b-lightBlue pb-2;
 }
 
 .logo {
@@ -20,5 +20,9 @@
 
 
 .home-icon {
-    @apply text-2xl text-darkBlue transition-colors duration-500 
+    @apply text-2xl text-darkBlue transition-colors duration-500
+}
+
+.section-title {
+    @apply text-lightBlue font-bold text-3xl border-b-3 border-b-lightBlue mx-auto
 }
