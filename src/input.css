@@ -9,3 +9,16 @@
 .logo {
     @apply text-darkBlue font-bold;
 }
+
+.home-text {
+    @apply font-bold text-6xl;
+}
+
+.main-btn {
+    @apply bg-lightBlue text-white w-fit px-10 py-3 rounded-lg font-bold
+}
+
+
+.home-icon {
+    @apply text-2xl text-darkBlue transition-colors duration-500 
+}
