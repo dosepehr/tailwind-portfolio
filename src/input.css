@@ -28,7 +28,7 @@
 }
 
 .contact-input {
-    @apply w-full max-w-[350px] p-4 border border-darkBlue rounded-lg;
+    @apply w-full p-4 border border-darkBlue rounded-lg;
 }
 
 .contact-input:placeholder{
