@@ -11,7 +11,7 @@
 }
 
 .home-text {
-    @apply font-bold text-6xl;
+    @apply font-bold text-4xl whitespace-nowrap
 }
 
 .main-btn {
@@ -31,7 +31,8 @@
     @apply w-full p-4 border border-darkBlue rounded-lg;
 }
 
-.contact-input:placeholder{
+.contact-input:placeholder {
     color: #686767;
     font-weight: 800;
 }
+
