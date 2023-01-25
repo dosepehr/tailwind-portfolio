@@ -26,3 +26,12 @@
 .section-title {
     @apply text-lightBlue font-bold text-3xl border-b-3 border-b-lightBlue mx-auto
 }
+
+.contact-input {
+    @apply w-full max-w-[350px] p-4 border border-darkBlue rounded-lg;
+}
+
+.contact-input:placeholder{
+    color: #686767;
+    font-weight: 800;
+}
