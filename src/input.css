@@ -5,6 +5,7 @@
 .navLink {
     @apply text-darkBlue font-bold border-b-lightBlue pb-2;
 }
+
 .navLink::after {
     content: '';
     display: block;
@@ -13,7 +14,12 @@
     background-color: #4a6eec;
     transition: width .3s;
 }
+
 .navLink:hover::after {
+    width: 100%;
+}
+
+.navLink.active::after {
     width: 100%;
 }
 
@@ -97,6 +103,6 @@
     @apply text-white font-bold pb-2;
 }
 
-.ham-menu.active{
+.ham-menu.active {
     right: 0;
 }

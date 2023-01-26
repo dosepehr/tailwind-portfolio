@@ -969,6 +969,10 @@ video {
   width: 100%;
 }
 
+.navLink.active::after {
+  width: 100%;
+}
+
 .logo {
   font-weight: 700;
   --tw-text-opacity: 1;
@@ -1086,7 +1090,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.ham-menu.active{
+.ham-menu.active {
   right: 0;
 }
 
