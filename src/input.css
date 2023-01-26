@@ -32,7 +32,7 @@
 }
 
 .main-btn {
-    @apply bg-lightBlue text-white w-fit px-10 py-3 rounded-lg font-bold
+    @apply bg-lightBlue text-white w-fit px-10 py-3 rounded-lg font-bold hover:bg-white hover:text-lightBlue border-2 border-lightBlue transition-all duration-300;
 }
 
 
