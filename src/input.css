@@ -5,6 +5,17 @@
 .navLink {
     @apply text-darkBlue font-bold border-b-lightBlue pb-2;
 }
+.navLink::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #4a6eec;
+    transition: width .3s;
+}
+.navLink:hover::after {
+    width: 100%;
+}
 
 .logo {
     @apply text-darkBlue font-bold;
