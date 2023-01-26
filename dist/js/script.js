@@ -95,8 +95,10 @@ const sun = document.querySelector('.sun');
 const moon = document.querySelector('.moon');
 console.log(mode);
 
-mode.onclick = () => {
+mode.onclick = (e) => {
+    e.stopPropagation();
     html.classList.toggle('dark');
     sun.classList.toggle('hidden');
     moon.classList.toggle('hidden');
 };
+

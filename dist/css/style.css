@@ -571,8 +571,8 @@ video {
   right: -100%;
 }
 
-.top-\[65px\] {
-  top: 65px;
+.top-\[64px\] {
+  top: 64px;
 }
 
 .left-\[50\%\] {
@@ -1005,6 +1005,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(74 110 236 / var(--tw-text-opacity));
+}
+
+.dark .main-btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 28 50 / var(--tw-bg-opacity));
 }
 
 .home-icon {
