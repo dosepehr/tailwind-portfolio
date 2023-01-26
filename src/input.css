@@ -106,3 +106,17 @@
 .ham-menu.active {
     right: 0;
 }
+
+.skill-bar {
+    @apply bg-lightBlue rounded-full w-0 h-1
+}
+
+.skill-value {
+    @apply font-semibold text-darkBlue
+}
+.skill-value::after {
+    content: '%';
+}
+
+
+
