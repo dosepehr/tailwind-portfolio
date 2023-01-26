@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .navLink {
-    @apply text-darkBlue font-bold border-b-lightBlue pb-2;
+    @apply text-darkBlue font-bold border-b-lightBlue pb-2 dark:text-white;
 }
 
 .navLink::after {
@@ -24,7 +24,7 @@
 }
 
 .logo {
-    @apply text-darkBlue font-bold;
+    @apply text-darkBlue font-bold dark:text-white;
 }
 
 .home-text {
@@ -63,6 +63,7 @@
     position: relative;
 }
 
+
 .ham span {
     position: absolute;
     width: 24px;
@@ -73,7 +74,9 @@
     transform: rotate(0);
     transition: all 0.25s;
 }
-
+.dark .ham span {
+    background-color: #fff;
+}
 .ham span:nth-child(2) {
     transform: translateY(7px);
 }
@@ -114,9 +117,7 @@
 .skill-value {
     @apply font-semibold text-darkBlue
 }
+
 .skill-value::after {
     content: '%';
 }
-
-
-

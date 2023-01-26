@@ -63,7 +63,6 @@ const observeValues = new IntersectionObserver((elements) => {
 });
 values.forEach((el) => observeValues.observe(el));
 
-
 //!bars animation
 const bars = document.querySelectorAll('.skill-bar');
 const observeBars = new IntersectionObserver((elements) => {
@@ -88,3 +87,16 @@ const observeBars = new IntersectionObserver((elements) => {
 });
 bars.forEach((el) => observeBars.observe(el));
 
+// darkmode
+
+const mode = document.querySelector('.mode');
+const html = document.querySelector('html');
+const sun = document.querySelector('.sun');
+const moon = document.querySelector('.moon');
+console.log(mode);
+
+mode.onclick = () => {
+    html.classList.toggle('dark');
+    sun.classList.toggle('hidden');
+    moon.classList.toggle('hidden');
+};
